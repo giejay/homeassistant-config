@@ -19,8 +19,8 @@ blueprint:
       description: Select the remote control you wish to use.
       selector:
         device:
-          integration: zha
-          manufacturer: IKEA of Sweden
+          integration: mqtt
+          manufacturer: IKEA
           model: TRADFRI remote control
     power_short:
       name: Short Press - Power Button
