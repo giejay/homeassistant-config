@@ -19,8 +19,6 @@ blueprint:
       description: Select the remote control you wish to use.
       selector:
         device:
-          integration: mqtt
-          manufacturer: IKEA
     power_short:
       name: Short Press - Power Button
       description: The action to perform on Short Press of the Power Button
